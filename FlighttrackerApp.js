@@ -133,7 +133,7 @@ function get() {
 
 // MAP CODE
 function map(){
-    window.location.assign("map_original.html");
+    window.location.href("map_original.html");
    /* function addMarkersToMap(map) {
         // icons
         // resize a larger PNG image to a specific size
