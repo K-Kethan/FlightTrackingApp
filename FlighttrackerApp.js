@@ -133,7 +133,8 @@ function get() {
 
 // MAP CODE
 function map(){
-    function addMarkersToMap(map) {
+    window.location.assign("map_original.html");
+   /* function addMarkersToMap(map) {
         // icons
         // resize a larger PNG image to a specific size
         var parisPngIcon = new H.map.Icon("https://cdn4.iconfinder.com/data/icons/aiga-symbol-signs/444/aiga_departingflights-512.png", {size: {w: 32, h: 36}});
@@ -169,5 +170,5 @@ function map(){
           var ui = H.ui.UI.createDefault(this.map, maptypes, 'pt-BR');
       
           // Now use the map as required...
-          addMarkersToMap(this.map);}
+          addMarkersToMap(this.map);} */
 }
