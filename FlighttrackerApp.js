@@ -68,8 +68,8 @@ function createResult(res) {
     text6.classList.add("y");
     x.appendChild(text6);
     let text7 = document.createElement("p");
-    text6.textContent = "   Altitude (above sea level): " + d + " m";
-    text6.classList.add("y");
+    text7.textContent = "   Altitude (above sea level): " + d + " m";
+    text7.classList.add("y");
     x.appendChild(text7);
     //3.break
     let breakEl = document.createElement("br");
