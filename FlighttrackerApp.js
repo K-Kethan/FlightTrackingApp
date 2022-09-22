@@ -5,7 +5,7 @@ let searchResultEl = document.getElementById("searchresults");
 
 //console.log("l=" + lonmin);
 let i = 1;
-let x=2;
+
 function createResult(res) {
     let a = res[0];
     let b = res[1];
