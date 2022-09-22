@@ -1,10 +1,11 @@
 let searchResultEl = document.getElementById("searchresults");
+//checking export
 //let x=2;
 //export{x};
 
 //console.log("l=" + lonmin);
 let i = 1;
-
+let x=2;
 function createResult(res) {
     let a = res[0];
     let b = res[1];
